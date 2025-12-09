@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.containers {
+    width: 400px;
+    height: 530px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px;
+    color: #fff;
+    /* : rgba(255, 255,255, 0.02); */
+    border-radius: 15px;
+    background: linear-gradient(to right, #0c2b4e, #2a5298);
+
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.creat-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 0px;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.title {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    /* background-color: #4a90e2; */
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    background-color: #357ab8;
+    background: linear-gradient(to right, #0c2b4e, #357ab8);
+
+}
+
+.btn:hover {
+    background: linear-gradient(to right, orange, #357ab8);
+
+}
+
+span {
+    font-size: 20px;
+}
+
+.btnTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+
+}
+
+.login {
+    display: inline-block;
+    height: 45px;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: auto;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+@media(max-width:480px) {
+    .containers {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .containers input {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+.containers button {
+    font-size: 16px;
+    padding: 10px;
+}

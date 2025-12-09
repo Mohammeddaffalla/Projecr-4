@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>الرئيسية</title>
+</head>
+
+<body>
+    <div class="navbar navbar-expand-md navbar-dark p-3 text-white fixed-top">
+        <div class="container" id="nav">
+            <div>
+             <a href="#" class="navbar-brand" style="font-family: Arial, Helvetica, sans-serif;"><img src="img/log2.png" alt="img" width="50px">القبلي العقارية</a>
+
+             </div>
+            <button class="navbar-toggler" type="button"data-bs-toggle="collapse"data-bs-target="#mainmenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a href="login.html" class="nav-link text-white text-center" id="login"> تسجيل دخول </a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link text-white"> تواصل معنا </a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown">العقارات</a>
+                        <ul class="dropdown-menu">
+                           <li><a href="rent.html" class="dropdown-item"> عقارات لللإيجار</a></li>
+                           <li><a href="house.html" class="dropdown-item">عقارات للشراء</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="services.html" class="nav-link text-white">الخدمات</a></li>
+                 <li class="nav-item"><a href="about.html" class="nav-link text-white">من نحن </a></li>
+                    <li class="nav-item">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white"> الرئيسية </a></li>
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--hero-->
+    <section id="hero" class=" text-light text-center py-3">
+        <div class="container mt-5">
+           
+            <div class="d-flex">
+            
+                </div>
+                <div class="container mt-4">
+                     <h3 class="mb-5"> للبحث عن عقار<i class="bi bi-search" style="color: #CE8C5B; margin-left: 10px;"></i></h3>
+                <div class="row g-2" id="form">
+  <div class="col-md" dir="rtl">
+    <div class="form-floating">
+      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+        <option selected>المساحة</option>
+        <optgroup label=" الشقق السكنية عدد الغرف">
+        <option value="1">خمسه غرف</option>
+        <option value="2">اربعة غرف</option>
+        <option value="3">ثلاثة غرف</option>
+        <option value="3">غرفتين</option>
+        </optgroup>
+        <optgroup label=" الاراضي">
+        <option value="1">اقل من 300 م2</option>
+        <option value="2"> من 400 الي 600م2</option>
+        <option value="3"> من 500 الي 800م2</option>
+        <option value="3">اكثر من 1000</option>
+        </optgroup>
+        
+      </select>
+      <label for="floatingSelectGrid">Works with selects</label>
+    </div>
+  </div>
+  <div class="col-md" dir="rtl">
+    <div class="form-floating">
+      <input type="text" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="الحي">
+      <label for="floatingInputGrid">Email address</label>
+    </div>
+  </div>
+  <div class="col-md" dir="rtl">
+    <div class="form-floating">
+      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+        <option selected>المدينة</option>
+        <option value="1">الخرطوم</option>
+        <option value="2">امدرمان</option>
+        <option value="3">عطبرة</option>
+        <option value="3">شندي</option>
+        <option value="3">بورسودان</option>
+        <option value="3">كسلا</option>
+        <option value="3">الابيض</option>
+      </select>
+      <label for="floatingSelectGrid">Works with selects</label>
+    </div>
+  </div>
+  <div class="col-md" dir="rtl">
+    <div class="form-floating">
+      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+        <option selected>نوع العقار</option>
+        <option value="1">سكني</option>
+        <option value="2">اراضي</option>
+        <option value="3">عقار تجاري</option>
+      </select>
+      <label for="floatingSelectGrid">Works with selects</label>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-secondary mt-5" id="search">ابحث الان</button>
+<!-- <i class="bi bi-search ms-auto"></i> -->
+            </div>
+        </div>
+    </section>
+     <section class="py-5" id="features">
+        <div class="container">
+            <h2 class="text-center mb-4">الخدمات</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="cards text-light mb-4 carde">
+                        <div class="h1 text-center mt-3">
+                         <img src="img/cons.jpg" alt="" class="img-fluid" >
+                        </div> 
+                        <div class="card-body text-center" style=" box-shadow: 0px 5px 20px 0px rgba(128, 112, 22, 0.2);">
+                            <h4 class="card-title" style="color: #0c2b4e; font-family: sans-serif;">الاستشارات العقارية</h4>
+                            <p class="card-text" style="color: #0c2b4e;">نقدم استشارات عقارية دقيقة تساغدك في اتخاذ قرارات موثوقة من خلال تحليل السوق وتقييم الفرص وتوجيهك نحو الخيار الامثل</p>
+                            <a href="services.html" class="btn btn-info"> تفاصيل اكثر</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="cards text-light mb-4 cardr cardt">
+                        <div class="h1 text-center mt-3">
+                             <img src="img/invest.jpg" alt="" class="img-fluid">
+                        </div> 
+                        <div class="card-body text-center" style=" box-shadow: 0px 5px 20px 0px rgba(128, 112, 22, 0.2);">
+                            <h4 class="card-title" style="color: #0c2b4e; font-family: sans-serif;">الاستثمار العقاري </h4>
+                            <p class="card-text" style="color: #0c2b4e;">نوفر فرصا استثمارية مدروسة تعزز نموك المالي و تمنحك عائدا مستداما مع خيارات متنوعةتلبي اهداف المستثمرين وتنسجم مع تطورات السوق العقاري</p>
+                            <a href="#" class="btn btn-info"> تفاصيل اكثر</a>
+                        </div>
+                    </div>
+            </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="cards text-light mb-4" style=" box-shadow: 0px 5px 20px 0px rgba(128, 112, 22, 0.2);">
+                    <div class="h1 text-center mt-3">
+                         <img src="img/bg.jpg" alt="" class="img-fluid" style="opacity:4px">
+                    </div> 
+                    <div class="card-body text-center">
+                        <h4 class="card-title" style="color: #0c2b4e; font-family: sans-serif;"> الوساطة العقارية </h4>
+                        <p class="card-text" style="color: #0c2b4e; font-family: sans-serif;"> نقدم خدمات وساطة تساعدك احترافية تساعدك في الوصول الي العقار المناسب وضمان افضل الخيارات التي تلائم احتياجك</p>
+                       
+                        <a href="services.html" class="btn btn-info"> تفاصيل اكثر</a>
+                    </div>
+            </div>
+        </div>
+            </div>
+    </section>
+
+    <!--services-->
+    <section class="py-5" id="features">
+        <div class="container">
+            <h2 class="text-center mb-4">انواع العقارات</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-light mb-4">
+                        <div class="h1 text-center mt-3">
+                        <i class="bi bi-house-door"></i>
+                        </div> 
+                        <div class="card-body text-center">
+                            <h4 class="card-title">عقارات سكنية</h4>
+                            <p class="card-text">نقدم لك مجموعة متنوعة من الشقق السكنية التي تناسب احتياجاتك وميزانيتك مع خيارات متعددة في افضل المواقع يمكنك بسهولة إيجاد منزل احلامك بمرونة وسرعة</p>
+                            <a href="#" class="btn btn-info"> تفاصيل اكثر</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-light mb-4">
+                        <div class="h1 text-center mt-3">
+                            <i class="bi bi-bounding-box-circles"></i>
+                        </div> 
+                        <div class="card-body text-center">
+                            <h4 class="card-title ">اراضي </h4>
+                            <p class="card-text">نوفر لك اراضي سكنية وتجارية بمساحات مختلفة وفي مواقع إستراتيجية سواء كنت تبحث عن ارض للبناء او للاستثمار طويل المدي ستجد الخيارالمناسب لك</p>
+                            <a href="#" class="btn btn-info"> تفاصيل اكثر</a>
+                        </div>
+                    </div>
+            </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-light mb-4">
+                    <div class="h1 text-center mt-3">
+                        <i class="bi bi-buildings"></i>
+                    </div> 
+                    <div class="card-body text-center">
+                        <h4 class="card-title">عقارات تجارية </h4>
+                        <p class="card-text">اكتشف افضل المحلات والمكاتب والمعارض المجهزة للعمل فورا
+                            خياراتنا التجارية تساعدك علي تأسيس مشروعك في مواقع حيوية تضمن لك نجاحا واستثمارا مستقرا
+                        </p>
+                        <a href="#" class="btn btn-info"> تفاصيل اكثر</a>
+                    </div>
+            </div>
+        </div>
+            </div>
+    </section>
+    <section class="py-5" id="project">
+        <div class="container">
+            <h2 class="text-center mb-4">مشاريعنا</h2>
+           <div class="owl-carousel top-banner owl-theme">
+ 
+                         <div class="box">
+                        <div class="item"> <img src="img/bl3.jpg" alt="1"> </div>
+                          
+                           <div class="card-body text-center">
+                            <a href="#" class="btn btn-info">تصفح المشروع </a>
+                        </div>
+                       </div>
+                       <div class="boxs">
+     <div class="item"> <img src="img/bl8.jpg" alt="1"> </div>
+     <div class="card-body text-center">
+                            <a href="#" class="btn btn-info"> تصفح المشروع</a>
+                        </div>
+     </div>
+      <div class="boxs">
+      <div class="item"> <img src="img/bl9.jpg" alt="1"> </div>
+      <div class="card-body text-center">
+                            <a href="#" class="btn btn-info"> تصفح المشروع</a>
+                        </div>
+      </div>
+      <div class="boxs">
+       <div class="item"> <img src="img/bl5.jpg" alt="1"> </div>
+       <div class="card-body text-center">
+                            <a href="#" class="btn btn-info"> تصفح المشروع</a>
+                        </div>
+</div>
+</div>
+            <!-- <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light mb-4">
+                        <div class="h1 text-center mt-3">
+                         <img src="img/b4.jpg" alt="" class="img-fluid">
+                        </div> 
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light mb-4">
+                        <div class="h1 text-center mt-3">
+                             <img src="img/b4.jpg" alt="" class="img-fluid">
+                        </div> 
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+            </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card bg-dark text-light mb-4">
+                    <div class="h1 text-center mt-3">
+                     <img src="img/b4.jpg" alt="" class="img-fluid">
+                    </div> 
+                    <div class="card-body text-center">
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card bg-dark text-light mb-4">
+                    <div class="h1 text-center mt-3">
+                     <img src="img/b4.jpg" alt="" class="img-fluid">
+                    </div> 
+                    <div class="card-body text-center">
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+            </div>
+        </div>
+            </div> -->
+    </section>
+
+    <!--learn-->
+    
+    <!-- <section id="Learn" class="py-5">
+        <div class="container">
+            <div class="row align-items-center justsify-content-center">
+                <div class="col-md">
+                    <img src="assest/imgs/coding.svg.png" alt="" class="img-fluid">
+                </div>
+            <div class="col-md py-4">
+                <h2>Learn the the basics</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque quas adipisci tempore necessitatibus nihil atque, suscipit quam explicabo earum totam, dolor, aliquam praesentium doloribus quidem! ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam, consectetur iste quaerat, unde at sunt officiis dolore laudantium modi necessitatibus a magnam, non ducimus vel et asperiores rerum amet!</p>
+            
+            </div>
+        </div>
+    </section> -->
+    
+<!--next-->
+
+    
+<section id="next" class="py-5 text-light" style="background-color: #0c2b4e;">
+    <div class="container">
+        <div class="row align-items-center justsify-content-center">
+            <div class="col-md">
+                <img src="img/ps.png" alt="" class="img-fluid">
+            </div>
+        <div class="col-md py-4" dir="rtl">
+            
+<p >نعمل علي تقديم حلول عقارية موثوقة تجمع بين الخبرة والابتكار نسعي لتوفير تجربة مريحة تساعدك علي الوصول الي العقار المناسب بسهولة سواء كنت تبحث عن شراء إيجار او استثمار نهتم بأدق التفاصيل ونضع احتياجاتك في المقدمة لنمنحك خدمة عالية الجودة ورؤية واضحة تساعدك في اتخاذ قرارك بثقة</p>        
+        </div>
+    </div>
+</section>
+
+ <section class="py-5 mt-4" id="features">
+        <div class="container">
+            <div class="content">
+            <div class="row" style="box-shadow: 0px 5px 20px 0px rgba(128, 112, 22, 0.2);">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class=" py-1 text-light mb-2">
+                        <div class="h1 text-center mt-3">
+                        <div class="num" data-num="600">0</div>
+                         <h4 class="card-title  text-center mt-2">مجمع سكني</h4>
+                        </div> 
+                   
+                           
+                    
+                    </div>
+                </div>
+            
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class=" py-1 text-light mb-4">
+                        <div class="h1 text-center mt-3">
+                              <div class="num" data-num="350">0</div>
+                              <h4 class="card-title  text-center mt-2">مبني تجاري </h4>
+                              
+                        </div> 
+                       
+                            
+                        
+                        
+                    </div>
+            </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class=" py-1 text-light mb-4">
+                    <div class="h1 text-center mt-3">
+                        
+                          <div class="num" data-num="400">0</div>
+                          <h4 class="card-title text-center mt-2">قطعة ارض</h4>
+                    </div> 
+                    <div class="b"></div>
+                    
+                        
+                        
+                    
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="py-1 text-light mb-4">
+                    <div class="h1 text-center mt-3">
+                       
+                          <div class="num" data-num="1000">0</div>
+                          <h4 class="card-title  text-center mt-2">عميل راض</h4>
+                    </div> 
+            </div>
+        </div>
+            </div>
+            </div>
+        </div>
+    </section>
+<!--FAQ-->
+
+<section id="faq" class="py-5">
+    <div class="container" dir="rtl">
+        <h2 class="text-center mb-3">
+            الاسئلة الشائعة  
+        </h2>
+        <div class="accordion-flush" id="bt-faq">
+            <div class="accordion-item">
+            <h3 class="accordion-header" id="faq">
+                <button class="accordion-button collapsed"type="button"data-bs-toggle="collapse"data-bs-target="#answer-one" style="font-size: large; color: #0c2b4e;">
+                    كيف يمكنني البحث عن عقار مناسب عبر الموقع ؟
+                </button>
+            </h3>
+        </div>
+            <div class="accordion-collapse" id="answer-one">
+                يمكنك استخدام خاصية البحث المتقدم لتحديد نوع العقار المدينة الحي السعر وعدد الغرف وسيظهر لك جميع العقارات المتوفرة حسب اختيارك 
+            </div>
+        </div>
+       <div class="accordion-item">
+            <h3 class="accordion-header" id="faq">
+                <button class="accordion-button collapsed"type="button"data-bs-toggle="collapse"data-bs-target="#answer-two" style="font-size: large;color: #0c2b4e;">
+                    هل يمكنني طلب المساعدة في العثور علي عقار مناسب 
+                </button>
+            </h3>
+            <div class="accordion-collapse" id="answer-two">
+                نعم يمكنك إرسال طلب نموذج التواصل وسيقوم فريق الدعم او احد الوسطاء بالتواصل معك واقتراح عقارات تناسب متطلباتك
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="faq">
+                <button class="accordion-button collapsed"type="button"data-bs-toggle="collapse"data-bs-target="#answer-three" style="font-size: large;color: #0c2b4e;">
+              هل يمكنني حفظ العقارت التي تعجبني للرجوع إليها لاحقا 
+                </button>
+            </h3>
+            <div class="accordion-collapse" id="answer-three">
+                نعم يمكنك إضافة أي عقارإلي قائمة المفضلة لديك بعد تسجيل الدخول والرجوع إليها في أي وقت
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="faq">
+                <button class="accordion-button collapsed"type="button"data-bs-toggle="collapse"data-bs-target="#answer-four" style="font-size: large; color: #0c2b4e;">
+                  هل يمكنني تصفح العقارات دون إنشاء حساب
+                </button>
+            </h3>
+            <div class="accordion-collapse" id="answer-four">
+                نعم يمكنك تصفح جميع العقارات الموجودة في الموقع دون الحاجة لأنشاء حساب يسمح لك الموقع بالبحث مشاهدة الصور قراة التفاصيل ومعرفة اسعر العقارات بكل حرية
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="watsapp">
+    <a href="https://wa.me/" class="watsapp"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+
+<!--footer-->
+<footer class="py-4 text-center text-white">
+    <div class="container">
+  <div class="row">
+     <div class="col-sm-12 col-md-6 col-lg-4">
+      <a href="#hero" class="nav-link " style="color: #CE8C5B; font-size: large;"> الصفحات </a>
+                  <a href="#hero" class="nav-link text-white "> الرئيسية</a>
+               <a href="#hero" class="nav-link text-white">من نحن </a>
+                <a href="#features" class="nav-link text-white">للشراء</a>
+             <a href="#features" class="nav-link text-white">عقار لللإيجار</a>
+               <a href="#features" class="nav-link text-white">تواصل معنا</a>
+    
+    </div>
+     <div class="col-sm-12 col-md-6 col-lg-4">
+        
+    <a href="" class="nav-link " style="color: #CE8C5B; font-size: large;"> للتواصل معنا </a>
+               <a href="#hero" class="nav-link text-white">  الخرطوم  - السودان <i class="bi bi-geo-alt-fill" style="font-size: 18px; margin-left: 5px;"></i></a>
+                <a href="#features" class="nav-link text-white" style="margin-left: 22px;">090000000  <i class="bi bi-whatsapp" style="font-size: 18px; margin-left: 19px;"></i> </a>
+             <a href="#features" class="nav-link text-white" style="margin-left: 25px;">0911111111 <i class="bi bi-telephone-fill" style="font-size: 18px; margin-left: 19px;"></i> </a>
+               <a href="#features" class="nav-link text-white">prop@gmail.com <i class="bi bi-envelope-at" style="font-size: 20px; margin-left: 14px;"></i></a>
+           
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="footer-left">
+      <div class="social-icons mt-5">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      
+    </div>
+    </div>
+  </div>
+</div>
+   <hr>
+   
+    <div class="container">
+        <a href="#" class="position-fixed bottom-0 p-3 d-flex" style="margin-bottom: 18px;">
+            <i class="bi bi-arrow-up-circle h2 " style="color: #CE8C5B;"></i> 
+        </a>
+ <p>&copy;</span>2025 جميع الحقوق محفوظة</p>
+    </div>
+</footer>
+
+
+
+<script>
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        // إغلاق القائمة  عند الضغط على أي رابط
+        const collapseElement = document.getElementById('navbarNav');
+        const collapseInstance = bootstrap.Collapse.getInstance(collapseElement);
+        if (collapseInstance) {
+            collapseInstance.hide();  // إخفاء القائمة
+        }
+    });
+});
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/owl.carousel.min.js"></script>
+
+<script>
+jQuery(document).ready(function(){
+$('.top-banner').owlCarousel({
+items:2,
+margin:40,
+loop:true,
+autoplay:true,
+responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        780:{
+            items:2,
+            nav:false
+        },
+        
+        1000:{
+            items:3,
+            nav:true,
+            loop:true
+        }
+    }
+
+})
+
+
+})
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>

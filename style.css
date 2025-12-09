@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    z-index: 1000;
+}
+.navbar{
+ background-color: #0c2b4e;
+
+ 
+} 
+ #login{
+    background-color: #CE8C5B;;
+    border-radius: 10px;
+    text-align: center;
+    direction: rtl;
+} 
+.navbar-nav{
+     gap: 10px;
+}
+#hero{
+    padding-top: 80px;
+    background: url(img/.png);
+    background-color: #0c2b4e;
+    min-height: 70vh;
+      display: flex; 
+    justify-content: center; 
+     align-items: center;
+     direction: ltr; 
+    background-repeat: no-repeat;
+}
+#heroo{
+    padding-top: 80px;
+    background: url(img/.png);
+    background-color: #0c2b4e;
+    min-height: 70vh; 
+     /* display: flex; */
+    /* justify-content: center; 
+     align-items: center; */
+     direction: ltr; 
+    background-repeat: no-repeat;
+}
+body{
+    background-color: aliceblue;
+}
+#search{
+    width: 180px;
+    padding: 7px 4px;
+    border-radius: 15px;
+}
+.container h4{
+    color: #fff;
+}
+.container h3{
+    font-family: sans-serif;
+}
+.container h2{
+    color: #0c2b4e;
+    font-family: sans-serif;
+}
+.row .card{
+    background-color:  #0c2b4e;
+    font-family: sans-serif;
+}
+
+
+.btn{
+background-color: #CE8C5B;
+color: #fff;
+border-radius: 10px;
+}
+.row i{
+    color: #CE8C5B;
+    
+}
+p{
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.box{
+   background-color: #fff; 
+    height: 50%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 0px rgba(128, 112, 22, 0.2);
+    position: relative;
+    top: 0;
+}
+.boxs{
+background-color: #fff; 
+    height: 50%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 0px rgba(128, 112, 22, 0.2);
+    position: relative;
+    top: 0;
+}
+
+.num{
+    color: #0c2b4e;
+}
+.content h4{
+    color: #0c2b4e;
+    font-family: sans-serif;
+}
+
+
+footer{
+    background-color: #0c2b4e;
+}
+
+@media(max-width:576px){
+ #login{
+    width: 105px;
+    text-align: center;
+     margin: auto;
+ }
+ #form{
+    flex-direction: column-reverse;
+ }
+ .navbar-nav{
+    flex-direction: column-reverse;
+ }
+ .footer-left{
+    display: flex;
+    justify-content: center;
+ }
+ footer .row .col{
+    flex-direction: column-reverse;
+ }
+ footer .row .col{
+    display: flex;
+    flex-direction: column-reverse;
+ }
+ 
+ }   
+ @media(max-width:768px){
+    #login{
+    width: 105px;
+    text-align: center;
+    margin: auto;
+ }
+ #form{
+    flex-direction: column-reverse;
+ }
+ .navbar-nav{
+    flex-direction: column-reverse;
+ }
+.footer-left{
+    display: flex;
+    justify-content: center;
+ }
+ footer .row .col{
+    display: flex;
+    flex-direction: column-reverse;
+ }
+ 
+    
+ }
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+    justify-content: start; 
+  align-items:start;
+  
+}
+
+.social-icons a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;         
+  height: 30px;
+  border-radius: 50%;  
+  background-color: #fff;
+  color: #222;       
+  font-size: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+
+
+.social-icons a:hover {
+background-color: #1DA1F2;
+  color: #fff;
+}
+#watsapp{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    
+}
+
+#watsapp .watsapp{
+    position: fixed;
+    transform: all .5s ease;
+    background-color: #25d366;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-radius: 50px;
+    border-right: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    bottom: 50px;
+    right: 20px;
+    border: 0;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    
+}
+#watsapp .watsapp:before{
+    content:"";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+#watsapp .watsapp:focus{
+    border: none;
+    outline: none;
+}
+
+@keyframes pulse-border {
+    0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1;}
+    100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.4); opacity: 0;}
+}
+
+ul li:hover ul.dropdown-menu{
+    display: block;
+}
+
+  li::after{
+    content: "";
+    position: absolute;
+    background-color: #CE8C5B;
+
+    /* bottom: 0; */
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    width: 4%;
+    height: 1px;
+    transition: transform 0.3s ease;
+
+}
+ li:hover{
+    color: #25d366;
+}
+ li:hover::after{
+    transform: translateX(-50%) scaleX(1);
+    
+}
+
+#login:hover{
+background: #fff
+color:#0c2b4e
+}
